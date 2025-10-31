@@ -33,6 +33,8 @@ export interface BotConfig {
   clientId: string;
   guildId: string;
   welcomeChannelId: string;
+  captchaChannelId: string;
+  verifiedRoleId: string;
   ticketCategoryId: string;
   logChannelId: string;
   staffRoleId: string;

@@ -29,8 +29,10 @@ A comprehensive Discord bot template with CAPTCHA verification, advanced ticket 
 
 ### 🎉 Welcome System
 - **20+ funny welcome messages** with random selection
+- **Rich embeds** with user avatar, join date, and member count
 - **User mention integration** for personal touch
-- **Configurable welcome channel**
+- **Separate welcome channel** from CAPTCHA verification
+- **Automatic member counting** and statistics
 
 ### ⚙️ Bot Management
 - **Dynamic command/event loading** from filesystem
@@ -76,6 +78,8 @@ A comprehensive Discord bot template with CAPTCHA verification, advanced ticket 
 
    # Channel Configuration
    WELCOME_CHANNEL_ID=your_welcome_channel_id
+   CAPTCHA_CHANNEL_ID=your_captcha_channel_id
+   VERIFIED_ROLE_ID=your_verified_role_id
    TICKET_CATEGORY_ID=your_ticket_category_id
    LOG_CHANNEL_ID=your_log_channel_id
    STAFF_ROLE_ID=your_staff_role_id
@@ -146,11 +150,13 @@ discord-bot-template-advanced/
 Replace the IDs in your `.env` file with your server's specific channel IDs:
 
 ```env
-# CAPTCHA verification channel (where new members get CAPTCHA)
+# Welcome messages channel (where funny welcome messages are sent)
 WELCOME_CHANNEL_ID=your_welcome_channel_id
 
-# Role given after CAPTCHA completion
-# (Add this to your bot configuration)
+# CAPTCHA verification channel (where new members get CAPTCHA)
+CAPTCHA_CHANNEL_ID=your_captcha_channel_id
+
+# Role given after successful CAPTCHA completion
 VERIFIED_ROLE_ID=your_verified_role_id
 
 # Ticket category (where ticket channels are created)

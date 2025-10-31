@@ -10,6 +10,8 @@ const requiredEnvVars = [
     'CLIENT_ID',
     'GUILD_ID',
     'WELCOME_CHANNEL_ID',
+    'CAPTCHA_CHANNEL_ID',
+    'VERIFIED_ROLE_ID',
     'TICKET_CATEGORY_ID',
     'LOG_CHANNEL_ID',
     'STAFF_ROLE_ID'
@@ -28,6 +30,8 @@ export const botConfig: BotConfig = {
     clientId: process.env.CLIENT_ID!,
     guildId: process.env.GUILD_ID!,
     welcomeChannelId: process.env.WELCOME_CHANNEL_ID!,
+    captchaChannelId: process.env.CAPTCHA_CHANNEL_ID!,
+    verifiedRoleId: process.env.VERIFIED_ROLE_ID!,
     ticketCategoryId: process.env.TICKET_CATEGORY_ID!,
     logChannelId: process.env.LOG_CHANNEL_ID!,
     staffRoleId: process.env.STAFF_ROLE_ID!,

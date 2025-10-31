@@ -76,8 +76,8 @@ const event: BotEvent = {
         await sendWelcomeMessage(member);
         
         // Then handle CAPTCHA verification
-        const channelId = '1433477899477848094'; // CAPTCHA verification channel
-        const roleId = '1433418063189119007'; // Role to give after verification
+        const channelId = botConfig.captchaChannelId; // CAPTCHA verification channel
+        const roleId = botConfig.verifiedRoleId; // Role to give after verification
         
         try {
             const channel = await member.guild.channels.fetch(channelId) as TextChannel;
