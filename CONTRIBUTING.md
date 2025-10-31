@@ -1,6 +1,6 @@
-# Contributing to DevHub Discord Bot
+# Contributing to Discord Bot Template Advanced
 
-First off, thank you for considering contributing to DevHub Bot! 🎉
+First off, thank you for considering contributing to this Discord bot template! 🎉
 
 **Created by [AlexM](https://github.com/ThisDudeBoy)**
 
@@ -19,20 +19,26 @@ This project and everyone participating in it is governed by our Code of Conduct
 ## 🚀 How to Contribute
 
 ### Reporting Bugs 🐛
-- Use the GitHub issue tracker
-- Check if the bug has already been reported
+- Use the GitHub issue tracker with bug template
+- Search existing issues before creating new ones
 - Include detailed information:
-  - Node.js version
-  - Discord.js version
+  - Node.js version (18.0.0+ required)
+  - Discord.js version (v14.x)
+  - TypeScript version
+  - Operating System
   - Steps to reproduce
   - Expected vs actual behavior
-  - Screenshots if applicable
+  - Screenshots/logs if applicable
+  - Error messages in full
 
 ### Suggesting Features ✨
 - Open an issue with the "enhancement" label
+- Use the feature request template
 - Clearly describe the feature and its benefits
 - Include examples of how it would work
-- Consider if it fits the bot's scope and purpose
+- Consider if it fits the template's scope and purpose
+- Check Discord.js v14 compatibility
+- Consider TypeScript implementation
 
 ### Code Contributions 💻
 1. Fork the repository
@@ -47,8 +53,8 @@ This project and everyone participating in it is governed by our Code of Conduct
 
 ```bash
 # Clone your fork
-git clone https://github.com/your-username/devhub-discord-bot.git
-cd devhub-discord-bot
+git clone https://github.com/your-username/discord-bot-template-advanced.git
+cd discord-bot-template-advanced
 
 # Install dependencies
 npm install
@@ -70,12 +76,16 @@ npm run dev
 5. **Link Issues**: Reference any related issues in your PR description
 
 ### PR Checklist ✅
-- [ ] Code follows TypeScript best practices
-- [ ] All functions have JSDoc comments
-- [ ] Error handling is implemented
-- [ ] No console.log statements (use proper logging)
-- [ ] README updated if needed
-- [ ] Tests pass (when available)
+- [ ] Code follows TypeScript best practices (strict mode)
+- [ ] All functions have JSDoc comments with proper types
+- [ ] Error handling is implemented with try/catch blocks
+- [ ] Use Chalk logging instead of console.log
+- [ ] Discord.js v14 compatibility ensured
+- [ ] No deprecated Discord.js methods used
+- [ ] Environment variables properly typed
+- [ ] README/SETUP.md updated if needed
+- [ ] Code formatted with Prettier (if configured)
+- [ ] ESLint rules followed
 
 ## 🐛 Issue Guidelines
 
@@ -197,7 +207,7 @@ Current focus areas (in order):
 - 📖 Check the [README](README.md) first
 - 🔍 Search existing issues
 - 💬 Ask questions in new issues
-- 📧 Contact: [Open an issue](https://github.com/ThisDudeBoy/devhub-discord-bot/issues)
+- 📧 Contact: [Open an issue](https://github.com/ThisDudeBoy/discord-bot-template-advanced/issues)
 
 ## 🙏 Recognition
 
@@ -208,6 +218,6 @@ Contributors will be recognized in:
 
 ---
 
-**Thank you for helping make DevHub Bot better! 🚀**
+**Thank you for helping make this Discord bot template better! 🚀**
 
 *Created with ❤️ by [AlexM](https://github.com/ThisDudeBoy)*
