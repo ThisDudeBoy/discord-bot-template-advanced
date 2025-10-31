@@ -1,6 +1,6 @@
-# 🤖 DevHub Discord Bot
+# 🤖 Discord Bot Template Advanced
 
-A comprehensive Discord bot for server management with CAPTCHA verification, advanced ticket system, and anti-advertising protection.
+A comprehensive Discord bot template with CAPTCHA verification, advanced ticket system, and anti-advertising protection. Perfect starter for your Discord server!
 
 **Created by [AlexM](https://github.com/ThisDudeBoy) 🚀**
 
@@ -56,8 +56,8 @@ A comprehensive Discord bot for server management with CAPTCHA verification, adv
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ThisDudeBoy/devhub-discord-bot.git
-   cd devhub-discord-bot
+   git clone https://github.com/ThisDudeBoy/discord-bot-template-advanced.git
+   cd discord-bot-template-advanced
    ```
 
 2. **Install dependencies**
@@ -101,7 +101,7 @@ A comprehensive Discord bot for server management with CAPTCHA verification, adv
 ## 📁 Project Structure
 
 ```
-devhub-discord-bot/
+discord-bot-template-advanced/
 ├── 📂 src/
 │   ├── 📂 commands/           # Slash commands (auto-loaded)
 │   │   ├── 📂 general/        # General commands
@@ -214,7 +214,7 @@ Want to contribute? Awesome! Here's how:
 
 Currently no known issues! 🎉
 
-If you find any bugs, please [create an issue](https://github.com/ThisDudeBoy/devhub-discord-bot/issues).
+If you find any bugs, please [create an issue](https://github.com/ThisDudeBoy/discord-bot-template-advanced/issues).
 
 ## 💬 Support
 
@@ -223,7 +223,7 @@ Need help? Here are your options:
 1. 📖 **Read the documentation** (this README)
 2. 🔍 **Check existing issues** on GitHub
 3. 🆕 **Create a new issue** if needed
-4. 💬 **Join our Discord** (coming soon)
+4. 💬 **Join our Discord** for live support: [https://discord.gg/q6T3bX2ZFG](https://discord.gg/q6T3bX2ZFG)
 
 ## 📄 License
 
