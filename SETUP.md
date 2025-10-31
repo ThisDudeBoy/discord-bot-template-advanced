@@ -6,11 +6,7 @@
 
 ## Installation
 
-### Windows (Automatic)
-1. Double-click `setup.bat`
-2. Follow the prompts
-
-### Manual Setup
+### Setup
 ```bash
 # 1. Install dependencies
 npm install
